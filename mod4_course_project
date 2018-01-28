@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form id="Don't worry about picking up the kids. Your husband has them and will have a talk with you at home :)">
+  Time: <input type="time" id="myTime">
+</form>
+
+<p>9AM-11AM You have plenty of time to run your errands before picking up the kids
+
+12PM-2PM It's getting close to pick up the kids. Finish your errands and head over to the school
+
+4PM-8PM Don't worry about picking up the kids. Your husband has them and will have a talk with you at home :)
+</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTime").form.id;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+</body>
+</html>
