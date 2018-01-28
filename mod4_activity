@@ -1,0 +1,15 @@
+<?php
+//sample if elseif...else statement
+$samplevariable = date("h:i:sa");
+
+date_default_timezone_set("America/New_York");
+echo "The current time in your time zone is:" . date("h:i:sa");
+
+if ($samplevariable < 10) {
+  echo "<br>You have plenty of time to run your errands before picking up the kids";
+} elseif ($samplevariable < 20) {
+    echo "<br>It's getting close to pick up the kids. Finish your errands and head over to the school";
+} else {
+    echo "<br>Don't worry about picking up the kids. Your husband has them and will have a talk with you at home :).";
+}
+?>
