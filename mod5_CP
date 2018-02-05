@@ -1,0 +1,17 @@
+<?php
+  $x=1;
+  echo 'Levels player will have an ability point added to their skill tree <br />';
+  while ($x<=100)
+    {
+          if (($x % 3)==0)
+        {
+      $x++;
+      continue;
+        }
+          else
+        {
+      echo $x.'<br />';
+      $x++;
+        }
+  }
+?>
