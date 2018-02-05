@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>World Cup Years</title>
+  </head>
+  <body>
+    <?php
+      for ($leap = 2005; $leap < 2050; $leap = $leap + 4) {
+        echo "<p>$leap</p>";
+      }
+    ?>
+  </body>
+</html>
