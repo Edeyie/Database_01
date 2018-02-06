@@ -1,0 +1,10 @@
+<?php
+function classSkill($cars) {
+    echo "Warrior ". $cars . "<br>";
+}
+
+classSkill("Tank");
+classSkill("DPS");
+classSkill("Two_Hander");
+classSkill("Brute");
+?>
