@@ -1,0 +1,14 @@
+<?php
+
+function XPGain($L) {
+  $a=0;
+  for($x=1; $x<$L; $x++) {
+    $a += floor($x+500*pow(4, ($x/8)));
+  }
+  return floor($a/2);
+}
+
+for($L=1;$L<100;$L++) {
+  echo 'Level '.$L.': '.XPGain($L).'<br />';
+}
+?>
